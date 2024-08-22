@@ -1,0 +1,131 @@
+body {
+    background-color: rgb(205, 221, 255);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Estilo do Cabeçalho */
+header {
+    background: #3533CD;
+    background: linear-gradient(to left, #3533CD 0%, #000000 100%);
+
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo do Banner */
+.banner {
+    width: 100%;
+    height: 300px;
+    background: #3533CD;
+    background: linear-gradient(to left, #3533CD 0%, #000000 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo da Grade de Produtos */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 10px;
+}
+
+.product-item {
+    background: #ffffff;
+    background: linear-gradient(to left, #0D71FF 0%, #6DA9FF 50%, #043585 100%);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+   
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo do Rodapé */
+footer {
+    background: #3533CD;
+    background: linear-gradient(to left, #3533CD 0%, #000000 100%);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.text1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+    padding: 10px;
+    font-size: 1.6em;
+}
+
+.text2 {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.text3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0263C4;
+}
+
+.form {
+    padding: 10px;
+}
+
+.testbutton {
+    font-family: arial;
+    color: #ffffff !important;
+    font-size: 14px;
+    text-shadow: 2px 1px 0px #7CACDE;
+    box-shadow: 1px 2px 1px #0263C4;
+    padding: 4px 17px;
+    border-radius: 10px;
+    border: 3px solid #FFFFFF;
+    background: #63B8EE;
+    background: linear-gradient(to top, #63B8EE, #468CCF);
+}
+
